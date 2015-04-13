@@ -487,7 +487,7 @@ class Garrison
         bool result = false;
         if (object.ReferenceEquals(null, rRebotAPI))
         {
-            throw new System.Exception("Slow your roll there buddy boy, we need the ReBotAPI passed in (aka: this)...");
+            throw new System.Exception("Slow your roll there buddy boy, we need the ReBotAPI passed in (aka: this)");
         }
         else
         {
